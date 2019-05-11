@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Contact — Julie Nguyen</title>
+
+    <meta name="author" content="Julie Nguyen">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body id="CONTACT_PAGE">
+    <!-- Page Header - START -->
+    <header id="page-header">
+        <div id="header-container">
+            <div id="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <div id="hamburger-menu" onclick="ToggleNav()">
+                <i class="hamburger-line" id="top-line"></i>
+                <i class="hamburger-line" id="mid-line"></i>
+                <i class="hamburger-line" id="bot-line"></i>
+            </div>
+        </div>
+        <nav id="nav-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item">About</a>
+            <a href="work.html" class="nav-item">Work</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Back To Top - Button -->
+    <div class="back-to-top">
+        <a href="#top-page"><img class="up-arrow" src="img/up-arrow-black.svg" alt="Back To Top Arrow"></a>
+    </div>
+
+    <main id="top-page">
+        <section class="page-contain">
+            <h1 class="main-heading itemReveal">Get In Touch</h1>
+            <p class="body-text itemReveal2">Feel free to reach out for any inquiries or just a friendly hello. I am always looking for new freelancing opportunities or people to connect with.</p>
+        </section>
+        <br>
+        <section class="page-contain">
+            <div class="info-box">
+                <div class="info-box-icon">
+                    <img src="img/phone.svg" alt="Phone Icon">
+                </div>
+                <p class="info-box-body">778.318.9686</p>
+            </div>
+            <div class="info-box">
+                <div class="info-box-icon">
+                    <img src="img/mail.svg" alt="Mail Envelope Icon">
+                </div>
+                <p class="info-box-body">j-ulienguyen@hotmail.com</p>
+            </div>
+            <div class="info-box">
+                <div class="info-box-icon">
+                    <img src="img/location.svg" alt="Location Pin Icon">
+                </div>
+                <p class="info-box-body">Vancouver, BC</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="page-contain itemReveal2">
+            <div id="alert">Thanks for sending a message.<br>I'll get back to you as soon as I can!</div>
+            <p>Required Field*</p>
+            <form action="#" id="contact-form" class="itemReveal2">
+                <input type="text" id="first-name" name="firstname" placeholder="First Name*" required=>
+                <input type="text" id="last-name" name="firstname" placeholder="Last Name">
+                <input type="email" id="email" name="email" placeholder="Email Address*" required>
+                <input type="text" id="subject" name="subject" placeholder="Subject*" required>
+                <textarea id="message" name="message" placeholder="What's Your Message?" required></textarea>
+                <button type="submit" class="btn btn-black" id="submit" >Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Page Footer - START -->
+    <footer id="page-footer">
+        <p>Made with &#9829; and a dash of sarcasm</p>
+        <p>Copyright &copy; 2019 Julie Nguyen | All Rights Reserved</p>
+        <div id="sm-footer">
+            <a href="https://www.linkedin.com/in/julie-nguyen-290715117/" target="_blank"><img class="sm-icons" src="img/linkedin-logo.svg" alt="Linkedin Icon"></a>
+            <a href="https://www.instagram.com/j_ulienguyen/" target="_blank"><img class="sm-icons" src="img/instagram-logo.svg" alt="Instagram Icon"></a>
+            <a href="https://github.com/j-ulienguyen" target="_blank"><img class="sm-icons" src="img/github-logo.svg" alt="Github Icon"></a>
+        </div>
+    </footer>
+
+    <!-- Link to External Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
