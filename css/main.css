@@ -62,17 +62,11 @@ a:active {
 
 .nav-item {
     font-family: 'Playfair Display', serif;
-    /* font-family: 'Roboto', sans-serif; */
     font-weight: 500;
     font-size: 1.35rem;
     text-transform: lowercase;
     color: black;
 }
-
-    /* .nav-item:link,
-    .nav-item:visited {
-        color: black;
-    } */
 
     .nav-item:hover,
     .nav-item:active {
@@ -94,22 +88,26 @@ a:active {
     margin: 1em 0;
 }
 
-.btn-black {
+a.btn-black {
     border: 1px solid black;
 }
 
-    .btn-black:hover {
+    a.btn-black:hover {
         color: white;
         background-color: rgb(45, 45, 45);
         transition: all 0.5s;
     }
 
-.btn-white {
-    color: white;
+a.btn-white {
+    color: white !important;
     border: 1px solid white;
 }
 
-    .btn-white:hover {
+    a.btn-white:link {
+        color: white !important;
+    }
+
+    a.btn-white:hover {
         color: black;
         background-color: white;
         transition: all 0.5s;
@@ -151,7 +149,6 @@ a:active {
     height: 10vh;
 
     background-color: white;
-    /* border: 1px solid red; */
 }
 
 .header-container {
@@ -166,15 +163,13 @@ a:active {
     height: 10vh;
 
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 
 /*===========================================
                     Logo
 ============================================*/
 /* #logo { */
-    /* position: absolute; */
-    /* left: 1.3em; */
+
 /* } */
 
 /*===========================================
@@ -240,7 +235,7 @@ a:active {
             animation: inBotLine 0.8s forwards;
 }
 
-/* Animation for Hamburger Menu Icon */
+/****** Animation for Hamburger Menu Icon ******/
 @-webkit-keyframes inMidLine {
     50% {
     -webkit-transform: rotate(0deg);
@@ -392,14 +387,12 @@ a:active {
     height: 90vh;
 
     background-color: white;
-    /* background-color: lightblue; */
     transition: background-color 0.5s ease;
 }
 
 .nav-item {
     text-decoration: none;
     padding: 1.15em;
-    /* border: 1px solid black; */
 }
 
 /*===========================================
@@ -414,7 +407,6 @@ a:active {
 
     position: relative;
     width: 100vw;
-    /* max-width: 100%; */
     height: 100vh;
 
     padding: 0 8vw;
@@ -436,8 +428,6 @@ a:active {
 .down-arrow-container {
     position: absolute;
     bottom: 20px;
-    /* bottom: 1.5rem; */
-    /* text-align: center; */
 }
 
 .down-arrow,
@@ -485,7 +475,6 @@ a:active {
     font-size: 0.85rem;
 
     padding: 1rem 0;
-    /* border: 1px solid red; */
 }
 
 #sm-footer {
@@ -497,7 +486,6 @@ a:active {
     height: auto;
 
     margin-top: 0.5rem;
-    /* border: 1px solid red; */
 }
 
 .sm-icons {
@@ -513,22 +501,18 @@ a:active {
 #HOME_PAGE
 .hero-section {
     color: white;
-    /* text-align: center; */
     background-color: rgb(35, 35, 35);
-    /* border: 1px solid red; */
 }
 
 #HOME_PAGE
 .hero-section .subheading {
     text-transform: uppercase;
     color: rgb(126, 126, 126);
-    /* margin-bottom: 1rem; */
 }
 
 #HOME_PAGE
 .hero-section .main-heading {
     font-size: 1.5rem;
-    /* margin-bottom: 1rem; */
 }
 
     #attention {
@@ -586,22 +570,16 @@ a:active {
     position: relative;
     text-align: center;
 
-    /* margin-top: 12vh; */
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
-    /* border: 1px solid red; */
 }
 
 #HOME_PAGE .project,
 #WORK_PAGE .project {
     position: relative;
     overflow: hidden;
-
     color: black;
-    /* background-color: white; */
-
     margin: 0 1rem;
-    /* border: 1px solid orange; */
 }
 
 #HOME_PAGE .project *,
@@ -613,7 +591,6 @@ a:active {
 #HOME_PAGE .project-image,
 #WORK_PAGE .project-image {
     width: 100%;
-    /* max-width: 100%; */
     vertical-align: top;
     backface-visibility: hidden;
 }
@@ -638,7 +615,6 @@ a:active {
     right: 0;
     bottom: 0;
     z-index: 1;
-    /* border: 1px solid blue; */
 }
 
 #HOME_PAGE .project-name,
@@ -646,21 +622,18 @@ a:active {
 #WORK_PAGE .project-name,
 #WORK_PAGE .project-category {
     opacity: 0;
-    /* letter-spacing: 1px; */
 }
 
 #HOME_PAGE .project-name,
 #WORK_PAGE .project-name {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    /* text-transform: uppercase; */
 }
 
 #HOME_PAGE .project-category,
 #WORK_PAGE .project-name {
     -webkit-transform: translateY(100%);
             transform: translateY(100%);
-    /* font-style: italic; */
 }
 
 #HOME_PAGE .project:hover .project-name,
@@ -680,10 +653,6 @@ a:active {
     right: 0;
     bottom: 0;
     z-index: 1;
-
-    /* display: inline-block; */
-    /* width: auto; */
-    /* border: 1px solid red; */
 }
 
 .center {
@@ -795,18 +764,10 @@ a:active {
 #top-page {
     padding-top: 15vh;
     padding-bottom: 2rem;
-    /* background-color: lightblue; */
-    /* border: 1px solid red; */
 }
-
-/* #PROJECT_PAGE */
-/* .page-contain { */
-    /* padding-bottom: 2rem; */
-/* } */
 
 #PROJECT_PAGE
 #project-intro {
-    /* border-bottom: 1px solid rgb(126, 126, 126); */
     text-align: center;
     margin-bottom: 5rem;
 }
@@ -814,12 +775,6 @@ a:active {
 #PROJECT_PAGE
 .project-name {
     font-size: 1.75rem;
-    /* padding-bottom: 2rem; */
-}
-
-#PROJECT_PAGE
-.project-description {
-    /* margin-bottom: 4rem; */
 }
 
 #PROJECT_PAGE
@@ -827,7 +782,6 @@ a:active {
     position: relative;
     top: -2rem;
     text-align: center;
-    /* margin-bottom: 2rem; */
 }
 
 #PROJECT_PAGE
@@ -863,23 +817,11 @@ a:active {
 }
 
 #PROJECT_PAGE
-#project-details-2,
-#project-details-3 {
-    margin: 3rem 0;
-    /* border: 1px solid red; */
-}
-
-#PROJECT_PAGE
 .project-image {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
 }
-
-    /* #PROJECT_PAGE
-    .project-image img {
-        width: 100%;
-    } */
 
 #PROJECT_PAGE
 .body-text {
@@ -887,6 +829,14 @@ a:active {
     margin: 0 auto;
 }
 
+#myModal {
+    display: none;
+}
+
+#PROJECT_PAGE video {
+    width: 100%;
+    height: 100%;
+}
 
 /*===========================================
                 CONTACT PAGE
@@ -895,8 +845,6 @@ a:active {
 #top-page {
     padding-top: 15vh;
     padding-bottom: 2rem;
-    /* background-color: lightblue; */
-    /* border: 1px solid red; */
 }
 
 #CONTACT_PAGE
@@ -953,11 +901,9 @@ form input::placeholder,
     align-items: center;
 
     text-align: center;
-    /* border-radius: 1rem; */
     border-radius: 0.5rem;
     border: 1px solid rgb(240, 240, 240);
     width: 18rem;
-    /* width: 80%; */
 
     padding: 1rem;
     margin: 0 auto;
@@ -966,7 +912,6 @@ form input::placeholder,
 
     #CONTACT_PAGE
     .info-box:hover {
-        /* border-radius: 1rem; */
         border-radius: 0.5rem;
         box-shadow: 2px 2px 3px rgb(201, 201, 201);
     }
@@ -979,16 +924,14 @@ form input::placeholder,
 
     height: 1.5rem;
     margin-right: 0.75rem;
-    /* border: 1px solid blue; */
 }
 
     #CONTACT_PAGE
     .info-box-icon img {
-        /* height: 100%; */
-            height: 25px;
-            width: auto;
-            margin: 0 0.25rem;
-}
+        height: 25px;
+        width: auto;
+        margin: 0 0.25rem;
+    }
 
 #CONTACT_PAGE
 #alert {
@@ -1096,6 +1039,10 @@ form input::placeholder,
         margin-top: 3rem;
     }
 
+    #myModal {
+        display: none;
+    }
+
     /* ===================================== */
     #CONTACT_PAGE
     #contact-intro {
@@ -1193,7 +1140,6 @@ form input::placeholder,
     #ABOUT_PAGE
     #about-image {
         width: 30rem;
-        /* border: 1px solid red; */
     }
 
     #ABOUT_PAGE
@@ -1202,13 +1148,11 @@ form input::placeholder,
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        /* border: 1px solid red; */
     }
 
     #ABOUT_PAGE
     .info-box {
         width: 24%;
-        /* border: 1px solid blue; */
     }
 
     /* ===================================== */
@@ -1248,7 +1192,7 @@ form input::placeholder,
         opacity: 0.5;
     }
 
-    /* MODAL FOR IMAGES */
+    /****** MODAL FOR IMAGES - DESKTOP ONLY ******/
     .modal {
         display: none;
 
@@ -1295,6 +1239,7 @@ form input::placeholder,
         text-decoration: none;
         color: #bbb;
     }
+    /*********************************************/
 
     /* ===================================== */
     #CONTACT_PAGE

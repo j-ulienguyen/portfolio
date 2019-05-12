@@ -40,13 +40,13 @@ function ToggleModal(status){
 var ItemReveal = {
     delay: 300,
     easing: 'ease-in-out',
-    reset: true
+    // reset: true
 }
 
 var ItemReveal2 = {
     delay: 600,
     easing: 'ease-in-out',
-    reset: true
+    // reset: true
 }
 
 window.sr = ScrollReveal();

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Contact — Julie Nguyen</title>
+    <title>The Collective Coffee Roasters & Bar — Julie Nguyen</title>
 
     <meta name="author" content="Julie Nguyen">
     <meta name="description" content="Julie Nguyen is a Multidisplinary Designer and Front-End Developer based in Vancouver, BC. Currently studying Digital Design and Development (D3) at BCIT. Julie Nguyen BCIT D3 Portfolio">
@@ -18,7 +18,7 @@
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body id="CONTACT_PAGE">
+<body id="PROJECT_PAGE">
     <!-- Page Header - START -->
     <header id="mobile-nav" class="page-header">
         <div class="header-container">
@@ -59,46 +59,55 @@
     </div>
 
     <main id="top-page">
-        <div id="contact-intro">
-            <section class="page-contain contact-msg">
-                <h1 class="main-heading itemReveal">Get In Touch</h1>
-                <p class="body-text itemReveal2">Feel free to reach out for any inquiries or just a friendly hello. I am always looking for new freelancing opportunities or people to connect with.</p>
-            </section>
+        <section id="project-intro" class="page-contain">
+            <h1 class="project-name main-heading itemReveal">The Collective Coffee Roasters & Bar</h1>
+            <p class="project-description itemReveal">The Collective Coffee Roasters & Bar is a fictional coffee shop located at the heart of Gastown, Vancouver. With a strong passion for coffee, The Collective strives to provide the best coffee experience tailored to your tastes.</p>
             <br>
-            <section class="page-contain contact-box">
-                <div class="info-box">
-                    <div class="info-box-icon">
-                        <img src="img/phone.svg" alt="Phone Icon">
-                    </div>
-                    <p class="info-box-body">778.318.9686</p>
+            <p class="project-description itemReveal">The final project for Term 1 of our MDIA 1106 - Design Fundamentals class we had to choose a type of business and create a brand out of it. The deliverables included: Site Wireframe, Website Design Mockup, Logo, and Brand Style Guide. We were given the option to try and code out our website for bonus marks despite having 1 term of coding knowledge. Although it is not responsive, you can check it out below (To be honest, it only looks good on my screen).</p>
+            <br>
+            <a target="_blank" href="http://j-ulienguyen.com/the-collective/" class="btn btn-black" style="width: 9rem; margin: 0 auto;">View Site</a>
+        </section>
+
+        <div id="project-details">
+            <section class="page-contain">
+                <div class="project-hero-image itemReveal">
+                    <img src="img/projects/tc-logo.jpg" alt="The Collective Logo - Cover Photo">
                 </div>
-                <div class="info-box">
-                    <div class="info-box-icon">
-                        <img src="img/mail.svg" alt="Mail Envelope Icon">
+
+                <div class="project-details">
+                    <div class="detail">
+                        <p class="subheading">Role</p>
+                        <p class="body-text">Branding & Visual Identity</p>
                     </div>
-                    <p class="info-box-body">j-ulienguyen@hotmail.com</p>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-icon">
-                        <img src="img/location.svg" alt="Location Pin Icon">
+                    <div class="detail">
+                        <p class="subheading">Year</p>
+                        <p class="body-text">November 2018</p>
                     </div>
-                    <p class="info-box-body">Vancouver, BC</p>
+                    <div class="detail">
+                        <p class="subheading">Team</p>
+                        <p class="body-text">Individual</p>
+                    </div>
+                    <div class="detail">
+                        <p class="subheading">Tools</p>
+                        <p class="body-text">Adobe Illustrator, Adobe Photoshop</p>
+                    </div>
                 </div>
             </section>
         </div>
-        <br>
-        <br>
-        <section class="page-contain form-section itemReveal2">
-            <div id="alert">Thanks for sending a message.<br>I'll get back to you as soon as I can!</div>
-            <p><small>Required Field*</small></p>
-            <form action="#" id="contact-form" class="itemReveal2">
-                <input type="text" id="first-name" name="firstname" placeholder="First Name*" required>
-                <input type="text" id="last-name" name="firstname" placeholder="Last Name">
-                <input type="email" id="email" name="email" placeholder="Email Address*" required>
-                <input type="text" id="subject" name="subject" placeholder="Subject*" required>
-                <textarea id="message" name="message" placeholder="What's Your Message?" required></textarea>
-                <button type="submit" class="btn btn-black" id="submit" onclick="SendData()">Submit</button>
-            </form>
+
+        <section>
+            <div class="project-image">
+                <img src="img/projects/tc-styleguide-1.jpg" alt="The Collective Brand Style Guide - Book Cover" onclick="ImageModal(this)">
+                <img src="img/projects/tc-styleguide-2.jpg" alt="The Collective Brand Style Guide - Spread 1" onclick="ImageModal(this)">
+                <img src="img/projects/tc-styleguide-3.jpg" alt="The Collective Brand Style Guide - Spread 2" onclick="ImageModal(this)">
+                <img src="img/projects/tc-styleguide-4.jpg" alt="The Collective Brand Style Guide - Spread 3" onclick="ImageModal(this)">
+            </div>
+
+            <!-- Modal Lightbox Image -->
+            <div id="myModal" class="modal">
+                <span class="close" onclick="ToggleModal('close')">&times;</span>
+                <img id="modal-image" class="modal-content" src="" alt="Modal Image">
+            </div>
         </section>
     </main>
 
@@ -112,10 +121,9 @@
             <a href="https://github.com/j-ulienguyen" target="_blank"><img class="sm-icons" src="img/github-logo.svg" alt="Github Icon"></a>
         </div>
     </footer>
+    <!-- Page Footer - END -->
 
     <!-- Link to External Scripts -->
-    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/contact.js"></script>
 </body>
 </html>

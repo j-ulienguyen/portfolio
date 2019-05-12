@@ -14,15 +14,15 @@
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body id="WORK_PAGE">
     <!-- Page Header - START -->
-    <header id="page-header">
-        <div id="header-container">
-            <div id="logo">
+    <header id="mobile-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
                 <a href="index.html"><h1>JN</h1></a>
             </div>
             <div id="hamburger-menu" onclick="ToggleNav()">
@@ -38,7 +38,20 @@
             <a href="contact.html" class="nav-item">Contact</a>
         </nav>
     </header>
-    <!-- Page Header - END -->
+
+    <header id="regular-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <nav id="regular-nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="work.html" class="nav-item">Work</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Back To Top - Button -->
     <div class="back-to-top">
@@ -58,7 +71,7 @@
                 <div class="project-details">
                     <h3 class="project-name">Green Society</h3>
                     <h5 class="project-category">Visual Identity, Packaging</h5>
-                    <a href="project.html"></a>
+                    <a href="green-society.html"></a>
                 </div>
             </div>
             <!-- Project 2 -->
@@ -68,7 +81,7 @@
                     <h3 class="project-name">The Collective</h3>
                     <h5 class="project-category">Visual Identity</h5>
                 </div>
-                <a href="project2.html"></a>
+                <a href="the-collective.html"></a>
             </div>
             <!-- Project 3 -->
             <div class="project" id="project3">
@@ -77,7 +90,7 @@
                     <h3 class="project-name">Typography Posters</h3>
                     <h5 class="project-category">Graphic Design</h5>
                 </div>
-                <a href="project3.html"></a>
+                <a href="type-poster.html"></a>
             </div>
             <!-- Project 4 -->
             <div class="project" id="project4">
@@ -86,7 +99,7 @@
                     <h3 class="project-name">Dream Animation</h3>
                     <h5 class="project-category">Motion Graphics</h5>
                 </div>
-                <a href="project4.html"></a>
+                <a href="dream.html"></a>
             </div>
             <!-- Project 5 -->
             <div class="project" id="project5">
@@ -95,7 +108,7 @@
                     <h3 class="project-name">Snapchat Graph Animation</h3>
                     <h5 class="project-category">Motion Graphics</h5>
                 </div>
-                <a href="project5.html"></a>
+                <a href="snapchat.html"></a>
             </div>
             <!-- Project 6 -->
             <div class="project" id="project6">
@@ -104,7 +117,7 @@
                     <h3 class="project-name">Product Illustration</h3>
                     <h5 class="project-category">Illustration</h5>
                 </div>
-                <a href="project6.html"></a>
+                <a href="illustration.html"></a>
             </div>
         </section>
     </main>

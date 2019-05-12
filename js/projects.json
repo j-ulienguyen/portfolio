@@ -1,0 +1,108 @@
+{
+    "projects" : [
+        {
+            "name" : "Green Society",
+            "description" : "Green Society is one of Canada's leading online dispensary for cannabis products. I was given the opportunity to design various things for the business. These include: Logo Design, Stand Up Pouch Bags, Rolling Papers, Match Boxes, T-Shirt Designs, and Web Banners.",
+            "details" : [
+                {
+                    "role" : "Branding & Visual Identity, Packaging",
+                    "year" : "October 2017",
+                    "team" : "Individual",
+                    "tools" : "Adobe Illustrator, Adobe Photoshop"
+                }
+            ],
+            "images" : [
+                {
+                    "hero" : "img/projects/gs-logo.jpg",
+                    "img1" : "img/projects/gs-pouch.jpg",
+                    "img2" : "img/projects/gs-pouch-2.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "The Collective Coffee Roasters & Bar",
+            "description" : "The Collective Coffee Roasters & Bar is a fictional coffee shop located at the heart of Gastown, Vancouver. With a strong passion for coffee, The Collective strives to provide the best coffee experience tailored to your tastes.",
+            "details" : [
+                {
+                    "role" : "Branding & Visual Identity",
+                    "year" : "November 2018",
+                    "team" : "Individual",
+                    "tools" : "Adobe Illustrator, Adobe Photoshop"
+                }
+            ],
+            "images" : [
+                {
+                    "hero" : "img/projects/tc-logo.jpg",
+                    "img1" : "img/projects/tc-styleguide-1.jpg",
+                    "img2" : "img/projects/tc-styleguide-2.jpg",
+                    "img3" : "img/projects/tc-styleguide-3.jpg",
+                    "img4" : "img/projects/tc-styleguide-4.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "Typography Posters",
+            "description" : "We were given an assignment for our MDIA 3165 - Vector Graphics class to create two Swiss-styled typographic posters with the supplied text for The Proms Classical Music Festival. Each poster uses a different type treatment: Poster 1 - Sans-serif, Poster 2 - Serif Typeface. The goal of this assignment was to understand the hierarchy of text and how a viewer will be able to easily navigate through the content of the poster. In addition, the technical requirements of this assignment was to create a modular grid to structure the layout, use of global swatches, and paragraph styles associated all text.",
+            "details" : [
+                {
+                    "role" : "Graphic Design",
+                    "year" : "April 2019",
+                    "team" : "Individual",
+                    "tools" : "Adobe Illustrator"
+                }
+            ],
+            "images" : [
+                {
+                    "hero" : "img/projects/type-poster-duo.jpg",
+                    "img1" : "img/projects/type-poster-1.jpg",
+                    "img2" : "img/projects/type-poster-2.jpg"
+                }
+            ]
+        },
+        {
+            "name" : "Dream Animation",
+            "description" : "For the midterm project in our MDIA 3187 - Visual Effects class, we were asked to pick a topic and create an animation that showcases our understanding and application of using keyframes, animation curves, expressions, nested compositions, shape layers and masking. After coming up with a topic, we had to storyboard our animation before executing it in Adobe After Effects. All vectors used inside the animation were created in Adobe Illustrator and imported over.",
+            "details" : [
+                {
+                    "role" : "Motion Graphics",
+                    "year" : "March 2019",
+                    "team" : "Individual",
+                    "tools" : "Adobe After Effects, Adobe Illustrator"
+                }
+            ],
+            "video" : "vid/dream-animation.mp4"
+        },
+        {
+            "name" : "Snapchat Graph Animation",
+            "description" : "We were given an assignment for our MDIA 3187 - Visual Effects class to find an image of a graph online and create an animation to present the data in a more visually appealing way. The following animation uses expressions, shape layers, trim paths, and number effects to create the desired result.",
+            "details" : [
+                {
+                    "role" : "Motion Graphics",
+                    "year" : "February 2019",
+                    "team" : "Individual",
+                    "tools" : "Adobe After Effects"
+                }
+            ],
+            "video" : "vid/snapchat-graph.mp4"
+        },
+        {
+            "name" : "Product Illustration",
+            "description" : "We were given an assignment for our MDIA 3165 - Vector Graphics class to create a coloured illustration of a mechanical object of our choice. The purpose of this assignment was to apply the skills we learned to recreate an object based off of a photograph. This illustration demonstrates the usage of basic shapes, pen tool, transformation functions, pathfinder functions, and most importantly, global swatches. All objects and any gradients created for the illustration must have a global swatch applied to them.",
+            "details" : [
+                {
+                    "role" : "Illustration",
+                    "year" : "February 2019",
+                    "team" : "Individual",
+                    "tools" : "Adobe Illustrator"
+                }
+            ],
+            "images" : [
+                {
+                    "hero" : "img/projects/akai-illustration-final.jpg",
+                    "img1" : "img/projects/akai-workspace.jpg",
+                    "img2" : "img/projects/akai-original-ref.jpg"
+                }
+            ]
+        }
+    ]
+}

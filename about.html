@@ -8,21 +8,21 @@
     <title>About Me — Julie Nguyen</title>
 
     <meta name="author" content="Julie Nguyen">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Julie Nguyen is a Multidisplinary Designer and Front-End Developer based in Vancouver, BC. Currently studying Digital Design and Development (D3) at BCIT. Julie Nguyen BCIT D3 Portfolio">
+    <meta name="keywords" content="Julie Nguyen, julie nguyen, julie nguyen portfolio, UX design, UI design, UI/UX, front end development, front-end development, front-end developer, bcit, bcit d3, digital design and development, bcit d3 portfolio, portfolio, graphic design, multidisciplinary, designer, vancouver, BC">
 
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body id="ABOUT_PAGE">
     <!-- Page Header - START -->
-    <header id="page-header">
-        <div id="header-container">
-            <div id="logo">
+    <header id="mobile-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
                 <a href="index.html"><h1>JN</h1></a>
             </div>
             <div id="hamburger-menu" onclick="ToggleNav()">
@@ -38,7 +38,20 @@
             <a href="contact.html" class="nav-item">Contact</a>
         </nav>
     </header>
-    <!-- Page Header - END -->
+
+    <header id="regular-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <nav id="regular-nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="work.html" class="nav-item">Work</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Back To Top - Button -->
     <div class="back-to-top">

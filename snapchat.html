@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Product Illustration — Julie Nguyen</title>
+    <title>Snapchat Graph Animation — Julie Nguyen</title>
 
     <meta name="author" content="Julie Nguyen">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Julie Nguyen is a Multidisplinary Designer and Front-End Developer based in Vancouver, BC. Currently studying Digital Design and Development (D3) at BCIT. Julie Nguyen BCIT D3 Portfolio">
+    <meta name="keywords" content="Julie Nguyen, julie nguyen, julie nguyen portfolio, UX design, UI design, UI/UX, front end development, front-end development, front-end developer, bcit, bcit d3, digital design and development, bcit d3 portfolio, portfolio, graphic design, multidisciplinary, designer, vancouver, BC">
 
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body id="PROJECT_PAGE">
     <!-- Page Header - START -->
-    <header id="page-header">
-        <div id="header-container">
-            <div id="logo">
+    <header id="mobile-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
                 <a href="index.html"><h1>JN</h1></a>
             </div>
             <div id="hamburger-menu" onclick="ToggleNav()">
@@ -38,7 +38,20 @@
             <a href="contact.html" class="nav-item">Contact</a>
         </nav>
     </header>
-    <!-- Page Header - END -->
+
+    <header id="regular-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <nav id="regular-nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="work.html" class="nav-item">Work</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Back To Top - Button -->
     <div class="back-to-top">
@@ -47,20 +60,23 @@
 
     <main id="top-page">
         <section id="project-intro" class="page-contain">
-            <h1 class="project-name main-heading itemReveal">Product Illustration</h1>
-            <p class="project-description itemReveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod quisquam iusto. Obcaecati ab dolores voluptate culpa totam, commodi vitae ipsam ex. Iste earum, magnam enim quasi et eum temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 class="project-name main-heading itemReveal">Snapchat Graph Animation</h1>
+            <p class="project-description itemReveal">We were given an assignment for our MDIA 3187 - Visual Effects class to find an image of a graph online and create an animation to present the data in a more visually appealing way. The following animation uses expressions, shape layers, trim paths, and number effects to create the desired result.</p>
         </section>
 
         <div id="project-details">
             <section class="page-contain">
                 <div class="project-hero-image itemReveal">
-                    <img src="img/projects/akai-illustration-final.jpg" alt="Akai Keyboard Illustration">
+                    <video controls>
+                        <source src="vid/snapchat-graph.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
                 </div>
 
                 <div class="project-details">
                     <div class="detail">
                         <p class="subheading">Role</p>
-                        <p class="body-text">Illustration</p>
+                        <p class="body-text">Motion Graphics</p>
                     </div>
                     <div class="detail">
                         <p class="subheading">Year</p>
@@ -72,24 +88,11 @@
                     </div>
                     <div class="detail">
                         <p class="subheading">Tools</p>
-                        <p class="body-text">Adobe Illustrator</p>
+                        <p class="body-text">Adobe After Effects</p>
                     </div>
                 </div>
             </section>
         </div>
-
-        <section>
-            <div class="project-image">
-                <img src="img/projects/akai-workspace.jpg" alt="Akai Workspace - Layer and Color Management" onclick="ImageModal(this)">
-                <img src="img/projects/akai-original-ref.jpg" alt="Akai Keyboard Original Product Reference" onclick="ImageModal(this)">
-            </div>
-
-            <!-- Modal Lightbox Image -->
-            <div id="myModal" class="modal">
-                <span class="close" onclick="ToggleModal('close')">&times;</span>
-                <img id="modal-image" class="modal-content">
-            </div>
-        </section>
     </main>
 
     <!-- Page Footer - START -->

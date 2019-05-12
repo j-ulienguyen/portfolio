@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>The Collective Coffee Roasters & Bar — Julie Nguyen</title>
+    <title>Product Illustration — Julie Nguyen</title>
 
     <meta name="author" content="Julie Nguyen">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Julie Nguyen is a Multidisplinary Designer and Front-End Developer based in Vancouver, BC. Currently studying Digital Design and Development (D3) at BCIT. Julie Nguyen BCIT D3 Portfolio">
+    <meta name="keywords" content="Julie Nguyen, julie nguyen, julie nguyen portfolio, UX design, UI design, UI/UX, front end development, front-end development, front-end developer, bcit, bcit d3, digital design and development, bcit d3 portfolio, portfolio, graphic design, multidisciplinary, designer, vancouver, BC">
 
     <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body id="PROJECT_PAGE">
     <!-- Page Header - START -->
-    <header id="page-header">
-        <div id="header-container">
-            <div id="logo">
+    <header id="mobile-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
                 <a href="index.html"><h1>JN</h1></a>
             </div>
             <div id="hamburger-menu" onclick="ToggleNav()">
@@ -38,7 +38,20 @@
             <a href="contact.html" class="nav-item">Contact</a>
         </nav>
     </header>
-    <!-- Page Header - END -->
+
+    <header id="regular-nav" class="page-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <nav id="regular-nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="work.html" class="nav-item">Work</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Back To Top - Button -->
     <div class="back-to-top">
@@ -47,25 +60,24 @@
 
     <main id="top-page">
         <section id="project-intro" class="page-contain">
-            <h1 class="project-name main-heading itemReveal">The Collective Coffee Roasters & Bar</h1>
-            <p class="project-description itemReveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod quisquam iusto. Obcaecati ab dolores voluptate culpa totam, commodi vitae ipsam ex. Iste earum, magnam enim quasi et eum temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="http://j-ulienguyen.com/the-collective/"><button class="btn btn-black">View Site</button></a>
+            <h1 class="project-name main-heading itemReveal">Product Illustration</h1>
+            <p class="project-description itemReveal">We were given an assignment for our MDIA 3165 - Vector Graphics class to create a coloured illustration of a mechanical object of our choice. The purpose of this assignment was to apply the skills we learned to recreate an object based off of a photograph. This illustration demonstrates the usage of basic shapes, pen tool, transformation functions, pathfinder functions, and most importantly, global swatches. All objects and any gradients created for the illustration must have a global swatch applied to them.</p>
         </section>
 
         <div id="project-details">
             <section class="page-contain">
                 <div class="project-hero-image itemReveal">
-                    <img src="img/projects/tc-logo.jpg" alt="The Collective Logo - Cover Photo">
+                    <img src="img/projects/akai-illustration-final.jpg" alt="Akai Keyboard Illustration">
                 </div>
 
                 <div class="project-details">
                     <div class="detail">
                         <p class="subheading">Role</p>
-                        <p class="body-text">Branding & Visual Identity</p>
+                        <p class="body-text">Illustration</p>
                     </div>
                     <div class="detail">
                         <p class="subheading">Year</p>
-                        <p class="body-text">November 2018</p>
+                        <p class="body-text">February 2019</p>
                     </div>
                     <div class="detail">
                         <p class="subheading">Team</p>
@@ -73,7 +85,7 @@
                     </div>
                     <div class="detail">
                         <p class="subheading">Tools</p>
-                        <p class="body-text">Adobe Illustrator, Adobe Photoshop</p>
+                        <p class="body-text">Adobe Illustrator</p>
                     </div>
                 </div>
             </section>
@@ -81,16 +93,14 @@
 
         <section>
             <div class="project-image">
-                <img src="img/projects/tc-styleguide-1.jpg" alt="The Collective Brand Style Guide - Book Cover" onclick="ImageModal(this)">
-                <img src="img/projects/tc-styleguide-2.jpg" alt="The Collective Brand Style Guide - Spread 1" onclick="ImageModal(this)">
-                <img src="img/projects/tc-styleguide-3.jpg" alt="The Collective Brand Style Guide - Spread 2" onclick="ImageModal(this)">
-                <img src="img/projects/tc-styleguide-4.jpg" alt="The Collective Brand Style Guide - Spread 3" onclick="ImageModal(this)">
+                <img src="img/projects/akai-workspace.jpg" alt="Akai Workspace - Layer and Color Management" onclick="ImageModal(this)">
+                <img src="img/projects/akai-original-ref.jpg" alt="Akai Keyboard Original Product Reference" onclick="ImageModal(this)">
             </div>
 
             <!-- Modal Lightbox Image -->
             <div id="myModal" class="modal">
                 <span class="close" onclick="ToggleModal('close')">&times;</span>
-                <img id="modal-image" class="modal-content">
+                <img id="modal-image" src="" class="modal-content" alt="Modal Image">
             </div>
         </section>
     </main>
