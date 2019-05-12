@@ -20,8 +20,8 @@
 </head>
 <body id="HOME_PAGE">
     <!-- Page Header - START -->
-    <header id="page-header">
-        <div id="header-container">
+    <header id="mobile-nav" class="page-header">
+        <div class="header-container">
             <div id="logo">
                 <a href="index.html"><h1>JN</h1></a>
             </div>
@@ -37,6 +37,20 @@
             <a href="work.html" class="nav-item">Work</a>
             <a href="contact.html" class="nav-item">Contact</a>
         </nav>
+    </header>
+
+    <header id="regular-nav" class="page-header">
+        <div class="header-container">
+            <div id="logo">
+                <a href="index.html"><h1>JN</h1></a>
+            </div>
+            <nav id="regular-nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="work.html" class="nav-item">Work</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Back To Top - Button -->
@@ -74,11 +88,11 @@
 
         <!-- Projects Section - START -->
         <div id="projects-section"></div>
+        <div class="itemReveal center">
+            <p class="mini-message">Why, hello there!<br>I'd love for you to check out my</p>
+            <h1 id="featured-work">Featured Work</h1>
+        </div>
         <section class="projects-section">
-            <div class="itemReveal">
-                <p class="mini-message">Why, hello there!<br>I'd love for you to check out my</p>
-                <h1 id="recent-work">Featured Work</h1>
-            </div>
             <!-- Project 1/4 -->
             <div class="project" id="project1">
                 <img class="project-image" src="img/projects/gs-pouch.jpg" alt="Green Society Pouch Packaging - Cover Photo">
@@ -115,8 +129,10 @@
                 </div>
                 <a href="project4.html"></a>
             </div>
-            <a href="work.html"><button class="btn btn-black">View More</button></a>
         </section>
+        <div class="center">
+            <a href="work.html"><button class="btn btn-black" id="view-more">View More</button></a>
+        </div>
     </main>
 
     <!-- Page Footer - START -->

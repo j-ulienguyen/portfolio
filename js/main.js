@@ -1,16 +1,4 @@
 /*===========================================
-                    jQuery
-============================================*/
-// $(document).ready(function(){
-//     // Hamburger Menu
-//     // Click to reveal navigation
-//     $("#hamburger-menu").click(function() {
-//         $(this).toggleClass("active");
-//     });
-
-// });
-
-/*===========================================
                   JavaScript
 ============================================*/
 function ToggleNav(el){
@@ -24,6 +12,24 @@ function ToggleNav(el){
         navMenu.style.display = "flex";
     } else {
         navMenu.style.display = "none";
+    }
+}
+
+function ImageModal(currentImage){
+    modal = document.querySelector("#myModal");
+    modalImage = document.querySelector("#modal-image");
+
+    ToggleModal("open");
+    modalImage.src = currentImage.src;
+}
+
+function ToggleModal(status){
+    if(status == "open"){
+        modal.style.display = "block";
+    }
+
+    else if(status == "close"){
+        modal.style.display = "none";
     }
 }
 
@@ -50,4 +56,4 @@ sr.reveal('.itemReveal2', ItemReveal2);
 sr.reveal('.project', ItemReveal2); // Home + Work Page
 sr.reveal('.info-box', ItemReveal2); // About Page
 sr.reveal('.detail', ItemReveal2); // Project Page
-// sr.reveal('.project-image', ItemReveal2); // Project Page
+sr.reveal('#PROJECT_PAGE .project-image', ItemReveal2); // Project Page

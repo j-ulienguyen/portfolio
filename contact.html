@@ -45,43 +45,45 @@
     </div>
 
     <main id="top-page">
-        <section class="page-contain">
-            <h1 class="main-heading itemReveal">Get In Touch</h1>
-            <p class="body-text itemReveal2">Feel free to reach out for any inquiries or just a friendly hello. I am always looking for new freelancing opportunities or people to connect with.</p>
-        </section>
-        <br>
-        <section class="page-contain">
-            <div class="info-box">
-                <div class="info-box-icon">
-                    <img src="img/phone.svg" alt="Phone Icon">
+        <div id="contact-intro">
+            <section class="page-contain contact-msg">
+                <h1 class="main-heading itemReveal">Get In Touch</h1>
+                <p class="body-text itemReveal2">Feel free to reach out for any inquiries or just a friendly hello. I am always looking for new freelancing opportunities or people to connect with.</p>
+            </section>
+            <br>
+            <section class="page-contain contact-box">
+                <div class="info-box">
+                    <div class="info-box-icon">
+                        <img src="img/phone.svg" alt="Phone Icon">
+                    </div>
+                    <p class="info-box-body">778.318.9686</p>
                 </div>
-                <p class="info-box-body">778.318.9686</p>
-            </div>
-            <div class="info-box">
-                <div class="info-box-icon">
-                    <img src="img/mail.svg" alt="Mail Envelope Icon">
+                <div class="info-box">
+                    <div class="info-box-icon">
+                        <img src="img/mail.svg" alt="Mail Envelope Icon">
+                    </div>
+                    <p class="info-box-body">j-ulienguyen@hotmail.com</p>
                 </div>
-                <p class="info-box-body">j-ulienguyen@hotmail.com</p>
-            </div>
-            <div class="info-box">
-                <div class="info-box-icon">
-                    <img src="img/location.svg" alt="Location Pin Icon">
+                <div class="info-box">
+                    <div class="info-box-icon">
+                        <img src="img/location.svg" alt="Location Pin Icon">
+                    </div>
+                    <p class="info-box-body">Vancouver, BC</p>
                 </div>
-                <p class="info-box-body">Vancouver, BC</p>
-            </div>
-        </section>
+            </section>
+        </div>
         <br>
         <br>
-        <section class="page-contain itemReveal2">
+        <section class="page-contain form-section itemReveal2">
             <div id="alert">Thanks for sending a message.<br>I'll get back to you as soon as I can!</div>
-            <p>Required Field*</p>
+            <p><small>Required Field*</small></p>
             <form action="#" id="contact-form" class="itemReveal2">
                 <input type="text" id="first-name" name="firstname" placeholder="First Name*" required=>
                 <input type="text" id="last-name" name="firstname" placeholder="Last Name">
                 <input type="email" id="email" name="email" placeholder="Email Address*" required>
                 <input type="text" id="subject" name="subject" placeholder="Subject*" required>
                 <textarea id="message" name="message" placeholder="What's Your Message?" required></textarea>
-                <button type="submit" class="btn btn-black" id="submit" >Submit</button>
+                <button type="submit" class="btn btn-black" id="submit" onclick="SendData()">Submit</button>
             </form>
         </section>
     </main>
